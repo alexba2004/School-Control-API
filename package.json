@@ -1,0 +1,26 @@
+{
+    "name": "api-ti",
+    "version": "1.0.0",
+    "description": "Extreme-NodeJS-Course",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon run src/index.js"
+    },
+    "keywords": [
+        "Mongo",
+        "Express",
+        "Node"
+    ],
+    "author": "Jose Alejandro Briones Arroyo",
+    "license": "ISC",
+    "dependencies": {
+        "ejs": "^3.1.9",
+        "express": "^4.18.2",
+        "mongoose": "^7.6.0",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
